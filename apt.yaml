@@ -1,0 +1,7 @@
+- name: install apt packages
+  apt:
+    - exa
+    - fd-find
+    - ripgrep
+    - fzf
+    - 

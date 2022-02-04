@@ -1,0 +1,23 @@
+- hosts: localhost
+  connection: local
+  
+  tasks:
+    - import_tasks: pip.yml
+      tags:
+        - pip
+
+    - import_tasks: npm.yml
+      tags:
+        - npm
+
+    - import_tasks: go.yml
+      tags:
+        - go
+
+    - import_tasks: apt.yml
+      tags:
+        - apt
+    
+    - import_tasks: files.yml
+      tags:
+        - files

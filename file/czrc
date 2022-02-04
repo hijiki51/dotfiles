@@ -1,0 +1,131 @@
+{
+  "path": "cz-emoji",
+  "config": {
+    "cz-emoji": {
+      "subjectMaxLength": 72,
+      "skipQuestions": ["scope", "issues"],
+      "types": [
+        {
+          "name": "seedling",
+          "code": "🌱",
+          "emoji": "🌱",
+          "description": "Initial Commit"
+        },
+        {
+          "name": "bug",
+          "code": "🐛",
+          "emoji": "🐛",
+          "description": "バグ修正"
+        },
+        {
+          "name": "art",
+          "code": "🎨",
+          "emoji": "🎨",
+          "description": "UIの修正・改善"
+        },
+        {
+          "name": "zap",
+          "code": "⚡",
+          "emoji": "⚡",
+          "description": "General Update"
+        },
+        {
+          "name": "sparkles",
+          "code": "✨",
+          "emoji": "✨",
+          "description": "部分的な機能追加"
+        },
+        {
+          "name": "tada",
+          "code": "🎉",
+          "emoji": "🎉",
+          "description": "大きな機能追加"
+        },
+        {
+          "name": "recycle",
+          "code": "♻️",
+          "emoji": "♻️",
+          "description": " リファクタリング"
+        },
+        {
+          "name": "boom",
+          "code": "💥",
+          "emoji": "💥",
+          "description": "Breaking Change"
+        },
+        {
+          "name": "wastebasket",
+          "code": "🗑️",
+          "emoji": "🗑️",
+          "description": " 不要な機能・使われなくなった機能の削除"
+        },
+        {
+          "name": "green_heart",
+          "code": "💚",
+          "emoji": "💚",
+          "description": "テストやCIの修正・改善"
+        },
+        {
+          "name": "shirt",
+          "code": "👕",
+          "emoji": "👕",
+          "description": "Lintエラーの修正やコードスタイルの修正"
+        },
+        {
+          "name": "rocket",
+          "code": "🚀",
+          "emoji": "🚀",
+          "description": "パフォーマンス改善"
+        },
+        {
+          "name": "up",
+          "code": "🆙",
+          "emoji": "🆙",
+          "description": "依存パッケージなどのアップデート"
+        },
+        {
+          "name": "ambulance",
+          "code": "🚑",
+          "emoji": "🚑",
+          "description": "HotFix"
+        },
+        {
+          "name": "memo",
+          "code": "📝",
+          "emoji": "📝",
+          "description": "文言修正"
+        },
+        {
+          "name": "books",
+          "code": "📚",
+          "emoji": "📚",
+          "description": "ドキュメント"
+        },
+        {
+          "name": "gear",
+          "code": "⚙️",
+          "emoji": "⚙️",
+          "description": "Config"
+        },
+        {
+          "name": "whale",
+          "code": "🐳",
+          "emoji": "🐳",
+          "description": "Docker関連"
+        },
+        {
+          "name": "cop",
+          "code": "👮",
+          "emoji": "👮",
+          "description": "セキュリティ関連の改善"
+        },
+        {
+          "name": "construction",
+          "code": "🚧",
+          "emoji": "🚧",
+          "description": "WIP"
+        }
+      ]
+    }
+  }
+}

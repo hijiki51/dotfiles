@@ -2,7 +2,7 @@
 - name: install apt packages
   apt:
     name:
-      - exa
       - fd-find
       - ripgrep
       - fzf
+#       - exa

@@ -16,5 +16,5 @@
 - name: install go packages
   shell: go install "{{ item }}"
   loop:
-    - github.com/justjanne/powerline-go
-    - github.com/rs/curlie
+    - github.com/justjanne/powerline-go@latest
+    - github.com/rs/curlie@latest

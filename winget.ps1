@@ -12,3 +12,6 @@ winget install -e --id Zoom.Zoom
 winget install -e --id Mozilla.Thunderbird
 winget install -e --id Notion.Notion
 winget install -e --id Doist.Todoist
+winget install -e --id File-New-Project.EarTrumpet
+winget install -e --id Figma.Figma
+winget install -e --id Google.Chrome.Canary

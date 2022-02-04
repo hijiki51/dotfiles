@@ -1,0 +1,6 @@
+
+- name: install go packages
+  go_get:
+    name: "{{ item }}"
+  loop:
+    - github.com/justjanne/powerline-go

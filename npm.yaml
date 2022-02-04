@@ -1,11 +1,17 @@
 - name: Add nodejs
   shell: asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+  args:
+    executable: /bin/bash
 
 - name: install nodejs 16.13.2
   shell: asdf install nodejs 16.13.2
+  args:
+    executable: /bin/bash
   
 - name: Global nodejs
   shell: asdf global nodejs 16.13.2
+  args:
+    executable: /bin/bash
 
 - name: install npm packages
   npm:

@@ -5,6 +5,11 @@
     - import_tasks: asdf.yaml
       tags:
         - asdf
+        
+    - import_tasks: files.yaml
+      tags:
+        - files
+ 
     - import_tasks: pip.yaml
       tags:
         - pip
@@ -20,7 +25,4 @@
     - import_tasks: apt.yaml
       tags:
         - apt
-    
-    - import_tasks: files.yaml
-      tags:
-        - files
+

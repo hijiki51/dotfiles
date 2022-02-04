@@ -115,6 +115,9 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
+export GOPATH=$HOME/.asdf/installs/golang/1.17.6/packages
 function _update_ps1() {
     PS1="$($GOPATH/bin/powerline-go -error $? -jobs $(jobs -p | wc -l))"
 
@@ -129,6 +132,4 @@ function _update_ps1() {
 if [ "$TERM" != "linux" ] && [ -f "$GOPATH/bin/powerline-go" ]; then
     PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 fi
-. $HOME/.asdf/asdf.sh
-. $HOME/.asdf/completions/asdf.bash
-export GOPATH=$HOME/.asdf/installs/golang/1.17.6/packages
+

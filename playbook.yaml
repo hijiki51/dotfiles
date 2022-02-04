@@ -2,22 +2,25 @@
   connection: local
   
   tasks:
-    - import_tasks: pip.yml
+    - import_tasks: asdf.yaml
+      tags:
+        - asdf
+    - import_tasks: pip.yaml
       tags:
         - pip
 
-    - import_tasks: npm.yml
+    - import_tasks: npm.yaml
       tags:
         - npm
 
-    - import_tasks: go.yml
+    - import_tasks: go.yaml
       tags:
         - go
 
-    - import_tasks: apt.yml
+    - import_tasks: apt.yaml
       tags:
         - apt
     
-    - import_tasks: files.yml
+    - import_tasks: files.yaml
       tags:
         - files

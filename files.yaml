@@ -10,11 +10,10 @@
 
 - name: link files
   copy:
-    src: files/{{ item.src }}
+    src: file/{{ item.src }}
     dest: ~/{{ item.dest }}
     force: yes
     follow: no
-    remote_src: yes
   loop:
     - src: czrc
       dest: .czrc

@@ -11,3 +11,4 @@
   shell: go install "{{ item }}"
   loop:
     - github.com/justjanne/powerline-go
+    - github.com/rs/curlie

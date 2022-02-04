@@ -1,11 +1,17 @@
 - name: Add golang
   shell: asdf plugin-add golang https://github.com/kennyp/asdf-golang.git
+  args:
+    executable: /bin/bash
 
 - name: install golang 1.17.6
   shell: asdf install golang 1.17.6
+  args:
+    executable: /bin/bash
   
 - name: Global golang
   shell: asdf global golang 1.17.6
+  args:
+    executable: /bin/bash
 
 - name: install go packages
   shell: go install "{{ item }}"

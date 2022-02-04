@@ -14,6 +14,7 @@
     dest: ~/{{ item.dest }}
     force: yes
     follow: no
+    remote_src: yes
   loop:
     - src: czrc
       dest: .czrc

@@ -10,7 +10,7 @@
 
 - name: link files
   file:
-    state: link
+    state: touch
     src: "{{ playbook_dir }}/files/{{ item.src }}"
     dest: ~/{{ item.dest }}
     force: yes

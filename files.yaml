@@ -9,8 +9,7 @@
     - git
 
 - name: link files
-  file:
-    state: touch
+  copy:
     src: "{{ playbook_dir }}/files/{{ item.src }}"
     dest: ~/{{ item.dest }}
     force: yes

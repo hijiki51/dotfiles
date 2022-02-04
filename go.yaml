@@ -8,7 +8,6 @@
   shell: asdf global golang 1.17.6
 
 - name: install go packages
-  go_get:
-    name: "{{ item }}"
+  shell: go install "{{ item }}"
   loop:
     - github.com/justjanne/powerline-go

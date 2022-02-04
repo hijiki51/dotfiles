@@ -1,5 +1,6 @@
 
 - name: install apt packages
+  become: yes
   apt:
     name:
       - fd-find

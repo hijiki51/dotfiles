@@ -1,0 +1,22 @@
+
+- name: create directory
+  file:
+    state: directory
+    path: ~/{{ item }}
+    mode: 0700
+  loop:
+    - .ssh
+    - git
+
+- name: link files
+  file:
+    state: link
+    src: "{{ playbook_dir }}/files/{{ item.src }}"
+    dest: ~/{{ item.dest }}
+    force: yes
+    follow: no
+  loop:
+    - src: czrc
+      dest: .czrc
+    - src: bashrc
+      dest: .bashrc

@@ -1,9 +1,14 @@
-winget install 7zip
-winget install -i git
-winget install powertoys
-winget install googlechrome
-winget install -i vscode
-winget install docker
-winget install steam
-winget install discord
-winget install slack
+winget install -e --id Git.Git
+winget install -e --id Microsoft.PowerToys
+winget install -e --id Google.Chrome
+winget install -e --id Microsoft.VisualStudioCode
+winget install -e --id Docker.DockerDesktop
+winget install -e --id Discord.Discord
+winget install -e --id SlackTechnologies.Slack
+winget install -e --id GitHub.GitHubDesktop
+winget install -e --id UnityTechnologies.UnityHub
+winget install -e --id Valve.Steam
+winget install -e --id Zoom.Zoom
+winget install -e --id Mozilla.Thunderbird
+winget install -e --id Notion.Notion
+winget install -e --id Doist.Todoist

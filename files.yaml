@@ -10,7 +10,7 @@
 
 - name: link files
   copy:
-    src: "{{ playbook_dir }}/files/{{ item.src }}"
+    src: files/{{ item.src }}
     dest: ~/{{ item.dest }}
     force: yes
     follow: no

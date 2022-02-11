@@ -118,6 +118,7 @@ fi
 . $HOME/.asdf/asdf.sh
 . $HOME/.asdf/completions/asdf.bash
 export GOPATH=$HOME/.asdf/installs/golang/1.17.6/packages
+export PATH=$PATH:$GOPATH/bin;
 function _update_ps1() {
     PS1="$($GOPATH/bin/powerline-go -error $? -jobs $(jobs -p | wc -l))"
 
